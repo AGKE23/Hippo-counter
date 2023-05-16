@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url("hippo.jpg");
+    background-image: url("hippo-start.jpg");
     background-color: var(--hippo);
     background-size: cover;
     background-position: center;

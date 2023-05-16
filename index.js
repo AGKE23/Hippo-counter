@@ -1,6 +1,9 @@
 let saveEl = document.getElementById("save-el")
 let countEl = document.getElementById("count-el")
 let count = 0
+let imageNumber = 0
+
+
 
 function increment() {
     count += 1
@@ -12,4 +15,9 @@ function save() {
     saveEl.textContent += countStr
     countEl.textContent = 0
     count = 0
+}
+
+function newHippo() {
+    imageNumber += 1
+    document.body.style.backgroundImage = "url('hippo (" + imageNumber + ").jpg')"
 }
